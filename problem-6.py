@@ -7,4 +7,4 @@ def evenodd(x):
     else:
         return 'odd'
 
-
+print(evenodd(2))

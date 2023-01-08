@@ -8,7 +8,7 @@ def greatest(x, y, z):
     if z > x and z > y:
         return z
 
-greatest(5, 55, 3)
+print(greatest(5, 55, 3))
 
 
 

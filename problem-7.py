@@ -5,4 +5,5 @@
 def secondletter(word):
     return word[1]
 
+print(secondletter('card'))
     
