@@ -1,7 +1,7 @@
 # write a function that returns a word uppercased
-x = input('give me a lowercase word')
-def uppercased():
+
+def uppercased(x):
     string.upper(x)
-    print(x)
+    return(x)
 
 uppercased()

@@ -1,17 +1,12 @@
 # Write a Python function that takes in 3 numbers and returns the greatest one 
 
-
-x = input('give me a number')
-y = input('give me a second number')
-z = input('give me a third number')
-
-def greatest():
+def greatest(x, y, z):
     if x > y and x > z:
-        print(x)
+        return(x)
     if y > x and y > z:
-        print (y)
+        return(y)
     if z > x and z > y:
-        print (z)
+        return(z)
 
 greatest()
 
