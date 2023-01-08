@@ -1,7 +1,7 @@
 # write a function that returns a word uppercased
 
 def uppercased(word):
-    string.upper(word)
+    word = str.upper(word)
     return word
 
 print(uppercased('use'))
