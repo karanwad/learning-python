@@ -2,6 +2,6 @@
 
 def uppercased(x):
     string.upper(x)
-    return(x)
+    return x
 
 uppercased()

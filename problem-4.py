@@ -2,17 +2,15 @@
 
 def greatest(x, y, z):
     if x > y and x > z:
-        return(x)
+        return x
     if y > x and y > z:
-        return(y)
+        return y
     if z > x and z > y:
-        return(z)
+        return z
 
-greatest()
+greatest(5, 55, 3)
 
-# print(x, y, z)
 
-# l = [x, y, z]
 
-# print(max(l))
+
 
