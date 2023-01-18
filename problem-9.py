@@ -1,8 +1,8 @@
 #write a function that will take a list as an argument and print out each item in it
 
 
-def printitem(numbers):
-    for x in numbers:
+def printitem(lis):
+    for x in lis:
         print(x)
 
 list = [5, 10, 20, 4]
